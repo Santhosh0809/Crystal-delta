@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.nav{
+padding: 10px 6vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.inboxbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brand logo{
+    width: 15px;
+    
+}
+.provide-details{
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(226, 93, 40);
+    border-radius: 10px;
+    color: white;
+}
+.bgimage{
+    position: absolute;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.probanner{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+.login-details{
+    color: rgb(226, 93, 40);
+    align-items: center;
+    top: 20%;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+    justify-content: space-between;
+    right: 7%;
+}
+.email{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+    border-color: gray;
+}
+.passwd{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+border-color: gray;
+}
+.repasswd{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+border-color: gray;
+}
+.emaillabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.passwordlabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.Confirmpasswordlabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.bigregbtn{
+    margin: 10px;    
+    padding: 15px;
+    width: 300px;
+    border: none;
+    color: white;
+    background-color: rgb(226, 93, 40);
+    font-weight: bold;
+    border-radius: 8px;
+}
+.bigregbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.nav{
+padding: 10px 6vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.brand logo{
+    width: 15px;
+    
+}
+.loginbtn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 93, 40);
+}
+.regbtn{
+    margin-left: 20px;
+    padding: 10px;
+    width: 100px ;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 93, 40);
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.tex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.bgimage{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bluebg{
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    margin-left: 220px;
+    margin: top 0;
+    margin-bottom: 0%;
+}
+.texts{
+    
+    display: flex;
+    align-items: center;
+   position: absolute;
+   justify-content: space-evenly;
+   top: 35%;
+   left: 4%;
+   font-size: 23px;
+}
+.ndtexts{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 48%;
+    left: 4%;
+    font-size: 23px;
+ }
+
+.firsttxt
+{
+    color: rgb(226, 93, 40);
+}
+.sixthtxt{
+    color: rgb(226, 93, 40);
+}
+.thirdtxt{
+    color: blue
+    ;
+}
+.eighthtxt{
+    color: blue;
+}
+.smltxt{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: absolute;
+   top: 65%;
+   left: 4%;
+}
+.smltxt2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+   top: 70%;
+   left: 4%;
+
+}
+.expbtn{
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(226, 93, 40) ;
+    height: fit-content;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+   left: 4%;
+   
+}
+.expbtn:hover{
+    background-color: black;
+    color:rgb(226, 93, 40);
+    animation: normal;
+    
+}
+.loginbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}
+.regbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+    opacity: 1;
+}
+.probanner{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
