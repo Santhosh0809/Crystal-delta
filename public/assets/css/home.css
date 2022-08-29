@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
 }
-.navbar{
+.homnavbar{
     position: sticky;
     top: 0;
     left: 0;
@@ -12,17 +12,17 @@
     justify-content: space-between;
 
 }
-.nav{
+.homnav{
 padding: 10px 6vw;
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
-.brand logo{
+.hombrand logo{
     width: 15px;
     
 }
-.loginbtn{
+.homloginbtn{
     padding: 10px;
     width: 100px;
     border-radius: 2px;
@@ -32,7 +32,7 @@ justify-content: space-between;
     color: white;
     background-color: rgb(226, 93, 40);
 }
-.regbtn{
+.homregbtn{
     margin-left: 20px;
     padding: 10px;
     width: 100px ;
@@ -43,27 +43,27 @@ justify-content: space-between;
     color: white;
     background-color: rgb(226, 93, 40);
 }
-.box-container{
+.hombox-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background: white;
 }
-.tex{
+.homtex{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background: white;
 }
-.bgimage{
+.hombgimage{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.bluebg{
+.hombluebg{
     top: 0%;
     left: 0%;
     bottom: 0%;
@@ -72,7 +72,7 @@ justify-content: space-between;
     margin: top 0;
     margin-bottom: 0%;
 }
-.texts{
+.homtexts{
     
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ justify-content: space-between;
    left: 4%;
    font-size: 23px;
 }
-.ndtexts{
+.homndtexts{
     display: flex;
     position: absolute;
     justify-content: space-evenly;
@@ -91,34 +91,34 @@ justify-content: space-between;
     font-size: 23px;
  }
 
-.firsttxt
+.homfirsttxt
 {
     color: rgb(226, 93, 40);
 }
-.sixthtxt{
+.homsixthtxt{
     color: rgb(226, 93, 40);
 }
-.thirdtxt{
+.homthirdtxt{
     color: blue
     ;
 }
-.eighthtxt{
+.homeighthtxt{
     color: blue;
 }
-.smltxt{
+.homsmltxt{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    position: absolute;
    top: 65%;
    left: 4%;
 }
-.smltxt2{
+.homsmltxt2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
    top: 70%;
    left: 4%;
 
 }
-.expbtn{
+.homexpbtn{
     border: none;
     outline: none;
     color: white;
@@ -132,23 +132,404 @@ justify-content: space-between;
    left: 4%;
    
 }
-.expbtn:hover{
+.homexpbtn:hover{
     background-color: black;
     color:rgb(226, 93, 40);
     animation: normal;
     
 }
-.loginbtn:hover{
+.homloginbtn:hover{
     background-color: black;
     color: rgb(226, 93, 40);
 }
-.regbtn:hover{
+.homregbtn:hover{
     background-color: black;
     color: rgb(226, 93, 40);
     opacity: 1;
 }
-.probanner{
+.homprobanner{
     position: absolute;
     top: 25%;
     left: 50%;
+}
+
+/*.....loginpage.....*/
+.lognavbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.lognav{
+padding: 10px 6vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.loginboxbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logbrand logo{
+    width: 15px;
+    
+}
+.logprovide-details{
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(226, 93, 40);
+    border-radius: 10px;
+    color: white;
+}
+.logbgimage{
+    position: absolute;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.logprobanner{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+.loglogin-details{
+    color: rgb(226, 93, 40);
+    align-items: center;
+    top: 25%;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+    justify-content: space-between;
+    right: 8%;
+}
+.logemail{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+    border-color: gray;
+}
+.logpasswd{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+border-color: gray;
+}
+.logemaillabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.logpasswordlabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.logbigloginbtn{
+    margin: 10px;    
+    padding: 15px;
+    width: 300px;
+    border: none;
+    color: white;
+    background-color: rgb(226, 93, 40);
+    font-weight: bold;
+    border-radius: 8px;
+}
+.logbigloginbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}
+
+/*.....registerpage.....*/
+.regnavbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.regnav{
+padding: 10px 6vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.regbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.regbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+.reginboxbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.regbrand logo{
+    width: 15px;
+    
+}
+.regprovide-details{
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(226, 93, 40);
+    border-radius: 10px;
+    color: white;
+}
+.regbgimage{
+    position: absolute;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.regprobanner{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+.reglogin-details{
+    color: rgb(226, 93, 40);
+    align-items: center;
+    top: 20%;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+    justify-content: space-between;
+    right: 7%;
+}
+.regemail{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+    border-color: gray;
+}
+.regpasswd{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+border-color: gray;
+}
+.regrepasswd{
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-width: 1px;
+border-color: gray;
+}
+.regemaillabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.regpasswordlabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.regConfirmpasswordlabel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+.regbigregbtn{
+    margin: 10px;    
+    padding: 15px;
+    width: 300px;
+    border: none;
+    color: white;
+    background-color: rgb(226, 93, 40);
+    font-weight: bold;
+    border-radius: 8px;
+}
+.regbigregbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}
+
+
+/*.....proguctpage.....*/
+.pronavbar{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.prolinks-container{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    list-style: none;
+    color: black;
+
+}
+.proitems{
+    color: black;
+    ;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.proitems:hover{
+    color: rgb(226, 93, 40);
+}
+.prosellprobtn{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.proprofile{
+    background-color: rgb(226, 93, 40);
+    margin: 10px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.prosellbtn{
+    background-color: rgb(226, 93, 40);
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.prosellbtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}
+.proprofile:hover{
+    background-color: white;
+}
+.probuybtn{
+    width: 300px;
+    padding: 10px;
+    background-color:rgb(226, 93, 40) ;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.probuybtn:hover{
+    background-color: black;
+    color: rgb(226, 93, 40);
+}
+.probox-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: white;
+}
+.probox{
+    list-style: none;
+    border-style: outset;
+    flex:1 1 300px;
+    background: white;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    margin: 20px ;
+}
+.probox .proimage{
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+.probox .proimage  img{
+
+    object-fit: cover;
+    filter: drop-shadow(0 3px 5px black);
+}
+.probox .proinfo .protitle{
+    list-style: none;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+.probox .proinfo .prosubinfo{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.proprice{
+    list-style: none;
+    color: red;
+    font-size: 20px;
+}
+.protitle{
+    list-style: none;
+    padding: 10px;
+    color:rgb(226, 93, 40) ;
+    font-size: 20px;
+}
+.proprddetail{
+    list-style: none;
+    padding: 10px;
+    color:grey ;
+    font-size: 20px;
+
 }
