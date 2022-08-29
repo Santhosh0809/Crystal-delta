@@ -19,7 +19,7 @@ class Loginpag extends Component {
         <input type="text" className="logemail" placeholder="Email"/><br></br>
         <label for="password" className="logpasswordlabel">Password</label><br></br>
         <input type="password" className="logpasswd" placeholder="Enter Password"/><br></br>
-        <button className="logbigloginbtn">LOGIN</button>
+        <Link to="/Productpage"><button className="logbigloginbtn">LOGIN</button></Link>
     </div>
       <div className="logbgimg">
          <img src="./assets/img/banner - bg.svg" alt="" className="logorangebg"/>
