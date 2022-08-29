@@ -22,7 +22,7 @@ class Registerpage extends Component {
         <input type="password" className="regpasswd" placeholder="Enter Password"/><br></br>
         <label for="password" className="regConfirmpasswordlabel">Confirm Password</label><br></br>
         <input type="password" className="regrepasswd" placeholder="Re-Enter Password"/><br></br>
-        <button className="regbigregbtn">REGISTER</button>
+        <Link to="/Productpage"><button className="regbigregbtn">REGISTER</button></Link>
     </div>
       <div className="regbgimg">
          <img src="./assets/img/banner - bg.svg" alt="" className="regorangebg"/>
