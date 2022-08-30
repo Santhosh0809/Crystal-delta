@@ -484,23 +484,22 @@ border-color: gray;
 }
 .probox{
     list-style: none;
-    border-style: outset;
+    
     flex:1 1 300px;
     background: white;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     overflow: hidden;
     margin: 20px ;
+    border-radius: 10%;
 }
 .probox .proimage{
-    padding: 10px;
     background: white;
     text-align: center;
 }
 .probox .proimage  img{
 
     object-fit: cover;
-    filter: drop-shadow(0 3px 5px black);
 }
 .probox .proinfo .protitle{
     list-style: none;
