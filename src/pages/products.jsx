@@ -11,7 +11,7 @@ class Productpage extends Component{
                 <Link to="/"><img src="./assets/img/Logo.svg" className="hombrand logo" alt=""/></Link>
         <div className="prosellprobtn">
         <button className="prosellbtn">+ SELL</button>
-        <button className="proprofile"><img src="./assets/img/circle-user.svg" alt="" width="40px" height="40px"/></button>
+        <button className="proprofile"><img src="./assets/img/circle-user.svg" alt="" width="40px" hight="40px"/></button>
     </div>
     </div>
     <div className="pronav">
@@ -31,7 +31,7 @@ class Productpage extends Component{
     <div className="probox-container" >
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/watch.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/watch.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Fastrack Watch</h3>
@@ -47,7 +47,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/rayban.jpg" alt="" width="350px" height="350px"/>
+              <img src="./assets/img/rayban.jpg" alt="" width="100%" height="350px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Rayban Glasses</h3>
@@ -65,7 +65,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/nike.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/nike.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Nike Shoes</h3>
@@ -83,7 +83,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/bag combo.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/bag combo.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Travel bags</h3>
@@ -100,7 +100,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/gucci bag.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/gucci bag.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Gucc1 Hand bag</h3>
@@ -117,7 +117,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/headphones.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/headphones.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">JBL Headphones</h3>
@@ -134,7 +134,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/landingAccessories.png" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/landingAccessories.png" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Landing Accessories</h3>
@@ -151,7 +151,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/mac makeup.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/mac makeup.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Mac Makeup</h3>
@@ -168,7 +168,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/pendant.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/pendant.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Pendant</h3>
@@ -185,7 +185,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/sunglass.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/sunglass.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Combo Sunglasses</h3>
@@ -202,7 +202,7 @@ class Productpage extends Component{
         </div>
        <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/Smart Watch.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/Smart Watch.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">SMART Watch</h3>
@@ -219,7 +219,7 @@ class Productpage extends Component{
         </div>
         <div className ="probox">
             <div className="proimage">
-              <img src="./assets/img/Alexa.jpg" alt="" width="350px" height="350 px"/>
+              <img src="./assets/img/Alexa.jpg" alt="" width="100%" height="350 px"/>
             </div>
             <div className="proinfo">
                 <h3 className="protitle">Bluetooth Speaker</h3>
@@ -241,4 +241,3 @@ class Productpage extends Component{
 }
  
 export default Productpage
-
