@@ -461,10 +461,10 @@ border-color: gray;
 .proprofile:hover{
     background-color: white;
 }
-.probuybtn{
-    width: 300px;
-    padding: 10px;
-    background-color:rgb(226, 93, 40) ;
+.probuybtn {
+    width: 100%;
+    padding: 10px 24px;
+    background-color: rgb(226, 93, 40);
     color: white;
     border: none;
     font-weight: bold;
